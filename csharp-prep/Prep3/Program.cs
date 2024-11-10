@@ -26,7 +26,7 @@ class Program
 
             else
             {
-                Console.Write("Wow! You guess the magic number!!");
+                Console.Write("Wow! You guessed the magic number!!");
             }
         }
     }
