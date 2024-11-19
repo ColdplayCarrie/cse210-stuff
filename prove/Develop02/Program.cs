@@ -1,3 +1,5 @@
+//I added option 6 which permanently deletes the contents of the journal file the user chooses
+
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
