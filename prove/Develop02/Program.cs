@@ -45,12 +45,6 @@ class Program
                     entry._promptText = _promptText;
                     entry._entryText = Console.ReadLine();
                     journal.AddEntry(entry);
-
-                    //journal.AddEntry(new Entry { 
-                    //    _date = entry._date, 
-                    //    _promptText = entry._promptText, 
-                    //    _entryText = entry._entryText 
-                    //});
                 }
                 
                 else if (userSelect ==2) 
