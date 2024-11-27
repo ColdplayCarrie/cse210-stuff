@@ -19,12 +19,10 @@ class Program
         Scripture scripture1 = new Scripture(reference1, "I can do all things through Christ which strengtheneth me.");
         Scripture scripture2 = new Scripture(reference2, "Behold, I speak unto you as if ye were present, and yet ye are not. But behold, Jesus Christ hath shown you unto me, and I know your doing.");
         Scripture scripture3 = new Scripture(reference3, "Know ye that ye are of the house of Israel. Know ye that ye must come unto repentance, or ye cannot be saved.");
+        
         //create scripture container space (memory)
         List<Scripture> _scriptures = new List<Scripture>();
-        // recognize containers and what they expect
-        // here, we told it to expect Scriptures
-        // so we have to give them concrete Scriptures - the things returned to us by the Constructor functions
-        //add the hardcoded Scriptures to the scripture container space (memory)
+
         _scriptures.Add(scripture1);
         _scriptures.Add(scripture2);
         _scriptures.Add(scripture3);
@@ -81,7 +79,7 @@ class Program
                 Console.WriteLine(chosenScripture.GetDisplayText());
                 Console.WriteLine("Hit the Enter key to hide words. Type QUIT to end.");
                 string newUserInput = Console.ReadLine();
-                //Clear the console
+                
                 if (newUserInput == "quit")
                 {
                     Console.WriteLine("Have a great day!");
