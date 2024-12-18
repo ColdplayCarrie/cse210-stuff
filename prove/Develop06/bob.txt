@@ -1,0 +1,4 @@
+0
+SimpleGoal:harry,potter,13,False
+EternalGoal:ron,weasley,50
+ChecklistGoal:hermione,granger,400,500,2,0

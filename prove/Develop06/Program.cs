@@ -1,9 +1,11 @@
+//Added ShowCountdown to GoalManager and used it in DisplayPlayerInfo as well as using Thread.Sleep in DisplayPlayerInfo
 using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop06 World!");
+        GoalManager goalManager = new GoalManager();
+        goalManager.Start();
     }
 }
